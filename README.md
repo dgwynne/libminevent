@@ -1,5 +1,5 @@
-`libminevent`
-=============
+libminevent
+===========
 
 This library implementas a minimal subset of `libevent`, specifically
 the APIs for handling events on file descriptors, timers, and
