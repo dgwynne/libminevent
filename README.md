@@ -3,7 +3,8 @@ libminevent
 
 This library implementas a minimal subset of `libevent`, specifically
 the APIs for handling events on file descriptors, timers, and
-signals. It does not include the buffer related APIs.
+signals. It does not include the buffer related APIs, and does not
+support use in threaded programs.
 
 It also differs from `libevent` in that the evtimer and signal APIs
 are not simple wrappers around the event API, they are distinct
